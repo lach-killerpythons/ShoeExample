@@ -1,3 +1,12 @@
+/*
+This is a Java nested class example
+--uses abstract class
+--sets finals in constructor
+--main loop instantiates the subclasses
+--polymorphism used between Shoe, Walking, Running
+--instanceof is used to check for child type
+ */
+
 public class ShoeExample {
     abstract class Shoe {
         public final String myBrand;
